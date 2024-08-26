@@ -22,14 +22,14 @@ class OAuthAuthenticator: Authenticator {
         self.keychainStorage = keychainStorage
     }
 
-//    convenience init() {
-//        @Injected(\.network) var network
-//        @Injected(\.keychainStorage) var keychainStorage
-//        self.init(
-//            network: network,
-//            keychainStorage: keychainStorage
-//        )
-//    }
+    convenience init() {
+        @Injected(\.network) var network
+        @Injected(\.keychainStorage) var keychainStorage
+        self.init(
+            network: network,
+            keychainStorage: keychainStorage
+        )
+    }
 
     func apply(
         _ credential: OAuthCredential,

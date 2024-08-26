@@ -44,6 +44,9 @@
 		55DF28ED2C7CF006005762BC /* KeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28EC2C7CF006005762BC /* KeychainStorage.swift */; };
 		55DF28EF2C7CF037005762BC /* KeychainStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28EE2C7CF037005762BC /* KeychainStorageService.swift */; };
 		55DF28F22C7CF07E005762BC /* KeychainStorageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28F12C7CF07E005762BC /* KeychainStorageError.swift */; };
+		55DF28F52C7CF232005762BC /* InjectionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28F42C7CF232005762BC /* InjectionKey.swift */; };
+		55DF28F72C7CF250005762BC /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28F62C7CF250005762BC /* DependencyContainer.swift */; };
+		55DF28F92C7CF362005762BC /* Injected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28F82C7CF362005762BC /* Injected.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +86,9 @@
 		55DF28EC2C7CF006005762BC /* KeychainStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStorage.swift; sourceTree = "<group>"; };
 		55DF28EE2C7CF037005762BC /* KeychainStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStorageService.swift; sourceTree = "<group>"; };
 		55DF28F12C7CF07E005762BC /* KeychainStorageError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStorageError.swift; sourceTree = "<group>"; };
+		55DF28F42C7CF232005762BC /* InjectionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionKey.swift; sourceTree = "<group>"; };
+		55DF28F62C7CF250005762BC /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		55DF28F82C7CF362005762BC /* Injected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injected.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				55DF28962C74D0E0005762BC /* SwiftToolKitApp.swift */,
+				55DF28F32C7CF210005762BC /* Dependency Injection */,
 				55DF28AD2C74D8D9005762BC /* Extensions */,
 				55DF28A42C74D6F2005762BC /* Utility */,
 				55DF28EA2C7CEFE8005762BC /* Data */,
@@ -260,6 +267,16 @@
 			path = Secure;
 			sourceTree = "<group>";
 		};
+		55DF28F32C7CF210005762BC /* Dependency Injection */ = {
+			isa = PBXGroup;
+			children = (
+				55DF28F42C7CF232005762BC /* InjectionKey.swift */,
+				55DF28F62C7CF250005762BC /* DependencyContainer.swift */,
+				55DF28F82C7CF362005762BC /* Injected.swift */,
+			);
+			path = "Dependency Injection";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -346,7 +363,9 @@
 				55DF28B42C7CCB61005762BC /* Array+Extensions.swift in Sources */,
 				55DF28BD2C7CD033005762BC /* Date+Extensions.swift in Sources */,
 				55DF28972C74D0E0005762BC /* SwiftToolKitApp.swift in Sources */,
+				55DF28F52C7CF232005762BC /* InjectionKey.swift in Sources */,
 				55DF28CC2C7CD566005762BC /* Toggle+Extensions.swift in Sources */,
+				55DF28F92C7CF362005762BC /* Injected.swift in Sources */,
 				55DF28C62C7CD476005762BC /* View+Extensions.swift in Sources */,
 				55DF28DE2C7CDA5B005762BC /* Network.swift in Sources */,
 				55DF28ED2C7CF006005762BC /* KeychainStorage.swift in Sources */,
@@ -357,6 +376,7 @@
 				55DF28EF2C7CF037005762BC /* KeychainStorageService.swift in Sources */,
 				55DF28D42C7CD6D7005762BC /* Route.swift in Sources */,
 				55DF28AC2C74D81E005762BC /* DictionaryBuilder.swift in Sources */,
+				55DF28F72C7CF250005762BC /* DependencyContainer.swift in Sources */,
 				55DF28E02C7CDADA005762BC /* NetworkService.swift in Sources */,
 				55DF28B22C7CB142005762BC /* Optional+Extensions.swift in Sources */,
 				55DF28B82C7CCC84005762BC /* Sequence+Extensions.swift in Sources */,
