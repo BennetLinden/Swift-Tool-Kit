@@ -35,6 +35,7 @@
 		55DF28D72C7CD8C5005762BC /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28D62C7CD8C5005762BC /* Endpoint.swift */; };
 		55DF28D92C7CD94D005762BC /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28D82C7CD94D005762BC /* NetworkError.swift */; };
 		55DF28DC2C7CD9F8005762BC /* AuthenticationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28DB2C7CD9F8005762BC /* AuthenticationError.swift */; };
+		55DF28DE2C7CDA5B005762BC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28DD2C7CDA5B005762BC /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		55DF28D62C7CD8C5005762BC /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		55DF28D82C7CD94D005762BC /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		55DF28DB2C7CD9F8005762BC /* AuthenticationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationError.swift; sourceTree = "<group>"; };
+		55DF28DD2C7CDA5B005762BC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				55DF28D52C7CD8BB005762BC /* Endpoint */,
 				55DF28D32C7CD6D7005762BC /* Route.swift */,
 				55DF28D82C7CD94D005762BC /* NetworkError.swift */,
+				55DF28DD2C7CDA5B005762BC /* Network.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				55DF28972C74D0E0005762BC /* SwiftToolKitApp.swift in Sources */,
 				55DF28CC2C7CD566005762BC /* Toggle+Extensions.swift in Sources */,
 				55DF28C62C7CD476005762BC /* View+Extensions.swift in Sources */,
+				55DF28DE2C7CDA5B005762BC /* Network.swift in Sources */,
 				55DF28B02C74D8F9005762BC /* Collection+Extensions.swift in Sources */,
 				55DF28C82C7CD50B005762BC /* Shape+Extensions.swift in Sources */,
 				55DF28AA2C74D80A005762BC /* ArrayBuilder.swift in Sources */,
