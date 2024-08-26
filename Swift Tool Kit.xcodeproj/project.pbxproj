@@ -15,6 +15,7 @@
 		55DF28A82C74D79D005762BC /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28A72C74D79D005762BC /* Configurable.swift */; };
 		55DF28AA2C74D80A005762BC /* ArrayBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28A92C74D80A005762BC /* ArrayBuilder.swift */; };
 		55DF28AC2C74D81E005762BC /* DictionaryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28AB2C74D81E005762BC /* DictionaryBuilder.swift */; };
+		55DF28B02C74D8F9005762BC /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28AF2C74D8F9005762BC /* Collection+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		55DF28A72C74D79D005762BC /* Configurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
 		55DF28A92C74D80A005762BC /* ArrayBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayBuilder.swift; sourceTree = "<group>"; };
 		55DF28AB2C74D81E005762BC /* DictionaryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryBuilder.swift; sourceTree = "<group>"; };
+		55DF28AF2C74D8F9005762BC /* Collection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		55DF28952C74D0E0005762BC /* Swift Tool Kit */ = {
 			isa = PBXGroup;
 			children = (
+				55DF28AD2C74D8D9005762BC /* Extensions */,
 				55DF28A42C74D6F2005762BC /* Utility */,
 				55DF28962C74D0E0005762BC /* SwiftToolKitApp.swift */,
 				55DF28982C74D0E0005762BC /* ContentView.swift */,
@@ -85,6 +88,22 @@
 				55DF28AB2C74D81E005762BC /* DictionaryBuilder.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		55DF28AD2C74D8D9005762BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				55DF28AE2C74D8E2005762BC /* Swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		55DF28AE2C74D8E2005762BC /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				55DF28AF2C74D8F9005762BC /* Collection+Extensions.swift */,
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +178,7 @@
 			files = (
 				55DF28992C74D0E0005762BC /* ContentView.swift in Sources */,
 				55DF28972C74D0E0005762BC /* SwiftToolKitApp.swift in Sources */,
+				55DF28B02C74D8F9005762BC /* Collection+Extensions.swift in Sources */,
 				55DF28AA2C74D80A005762BC /* ArrayBuilder.swift in Sources */,
 				55DF28AC2C74D81E005762BC /* DictionaryBuilder.swift in Sources */,
 				55DF28A82C74D79D005762BC /* Configurable.swift in Sources */,
