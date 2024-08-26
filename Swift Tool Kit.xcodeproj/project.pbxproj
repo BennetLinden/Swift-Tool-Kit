@@ -28,6 +28,7 @@
 		55DF28C62C7CD476005762BC /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28C52C7CD476005762BC /* View+Extensions.swift */; };
 		55DF28C82C7CD50B005762BC /* Shape+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28C72C7CD50B005762BC /* Shape+Extensions.swift */; };
 		55DF28CA2C7CD532005762BC /* Binding+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28C92C7CD532005762BC /* Binding+Extensions.swift */; };
+		55DF28CC2C7CD566005762BC /* Toggle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28CB2C7CD566005762BC /* Toggle+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		55DF28C52C7CD476005762BC /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		55DF28C72C7CD50B005762BC /* Shape+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shape+Extensions.swift"; sourceTree = "<group>"; };
 		55DF28C92C7CD532005762BC /* Binding+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extensions.swift"; sourceTree = "<group>"; };
+		55DF28CB2C7CD566005762BC /* Toggle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Toggle+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				55DF28C52C7CD476005762BC /* View+Extensions.swift */,
 				55DF28C72C7CD50B005762BC /* Shape+Extensions.swift */,
 				55DF28C92C7CD532005762BC /* Binding+Extensions.swift */,
+				55DF28CB2C7CD566005762BC /* Toggle+Extensions.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				55DF28B42C7CCB61005762BC /* Array+Extensions.swift in Sources */,
 				55DF28BD2C7CD033005762BC /* Date+Extensions.swift in Sources */,
 				55DF28972C74D0E0005762BC /* SwiftToolKitApp.swift in Sources */,
+				55DF28CC2C7CD566005762BC /* Toggle+Extensions.swift in Sources */,
 				55DF28C62C7CD476005762BC /* View+Extensions.swift in Sources */,
 				55DF28B02C74D8F9005762BC /* Collection+Extensions.swift in Sources */,
 				55DF28C82C7CD50B005762BC /* Shape+Extensions.swift in Sources */,
