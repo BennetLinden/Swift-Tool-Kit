@@ -20,6 +20,7 @@
 		55DF28B42C7CCB61005762BC /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28B32C7CCB61005762BC /* Array+Extensions.swift */; };
 		55DF28B62C7CCC00005762BC /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28B52C7CCC00005762BC /* Dictionary+Extensions.swift */; };
 		55DF28B82C7CCC84005762BC /* Sequence+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28B72C7CCC84005762BC /* Sequence+Extensions.swift */; };
+		55DF28BA2C7CCF37005762BC /* Result+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28B92C7CCF37005762BC /* Result+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		55DF28B32C7CCB61005762BC /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		55DF28B52C7CCC00005762BC /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
 		55DF28B72C7CCC84005762BC /* Sequence+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Extensions.swift"; sourceTree = "<group>"; };
+		55DF28B92C7CCF37005762BC /* Result+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				55DF28B32C7CCB61005762BC /* Array+Extensions.swift */,
 				55DF28B52C7CCC00005762BC /* Dictionary+Extensions.swift */,
 				55DF28B72C7CCC84005762BC /* Sequence+Extensions.swift */,
+				55DF28B92C7CCF37005762BC /* Result+Extensions.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DF28BA2C7CCF37005762BC /* Result+Extensions.swift in Sources */,
 				55DF28992C74D0E0005762BC /* ContentView.swift in Sources */,
 				55DF28B42C7CCB61005762BC /* Array+Extensions.swift in Sources */,
 				55DF28972C74D0E0005762BC /* SwiftToolKitApp.swift in Sources */,
