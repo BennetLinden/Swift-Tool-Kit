@@ -23,6 +23,7 @@
 		55DF28BA2C7CCF37005762BC /* Result+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28B92C7CCF37005762BC /* Result+Extensions.swift */; };
 		55DF28BD2C7CD033005762BC /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28BC2C7CD033005762BC /* Date+Extensions.swift */; };
 		55DF28BF2C7CD22A005762BC /* Comparable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28BE2C7CD22A005762BC /* Comparable+Extensions.swift */; };
+		55DF28C22C7CD365005762BC /* EdgeInsets+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28C12C7CD365005762BC /* EdgeInsets+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		55DF28B92C7CCF37005762BC /* Result+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Extensions.swift"; sourceTree = "<group>"; };
 		55DF28BC2C7CD033005762BC /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		55DF28BE2C7CD22A005762BC /* Comparable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comparable+Extensions.swift"; sourceTree = "<group>"; };
+		55DF28C12C7CD365005762BC /* EdgeInsets+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EdgeInsets+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		55DF28AD2C74D8D9005762BC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				55DF28C02C7CD35B005762BC /* SwiftUI */,
 				55DF28BB2C7CD02B005762BC /* Foundation */,
 				55DF28AE2C74D8E2005762BC /* Swift */,
 			);
@@ -133,6 +136,14 @@
 				55DF28BE2C7CD22A005762BC /* Comparable+Extensions.swift */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		55DF28C02C7CD35B005762BC /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				55DF28C12C7CD365005762BC /* EdgeInsets+Extensions.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DF28C22C7CD365005762BC /* EdgeInsets+Extensions.swift in Sources */,
 				55DF28BA2C7CCF37005762BC /* Result+Extensions.swift in Sources */,
 				55DF28992C74D0E0005762BC /* ContentView.swift in Sources */,
 				55DF28B42C7CCB61005762BC /* Array+Extensions.swift in Sources */,
