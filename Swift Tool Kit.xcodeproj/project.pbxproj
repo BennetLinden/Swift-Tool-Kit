@@ -33,6 +33,7 @@
 		55DF28D22C7CD6A0005762BC /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 55DF28D12C7CD6A0005762BC /* AlamofireDynamic */; };
 		55DF28D42C7CD6D7005762BC /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28D32C7CD6D7005762BC /* Route.swift */; };
 		55DF28D72C7CD8C5005762BC /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28D62C7CD8C5005762BC /* Endpoint.swift */; };
+		55DF28D92C7CD94D005762BC /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28D82C7CD94D005762BC /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		55DF28CB2C7CD566005762BC /* Toggle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Toggle+Extensions.swift"; sourceTree = "<group>"; };
 		55DF28D32C7CD6D7005762BC /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		55DF28D62C7CD8C5005762BC /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		55DF28D82C7CD94D005762BC /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 			children = (
 				55DF28D52C7CD8BB005762BC /* Endpoint */,
 				55DF28D32C7CD6D7005762BC /* Route.swift */,
+				55DF28D82C7CD94D005762BC /* NetworkError.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			files = (
 				55DF28C22C7CD365005762BC /* EdgeInsets+Extensions.swift in Sources */,
 				55DF28C42C7CD425005762BC /* EnvironmentValues+Extensions.swift in Sources */,
+				55DF28D92C7CD94D005762BC /* NetworkError.swift in Sources */,
 				55DF28BA2C7CCF37005762BC /* Result+Extensions.swift in Sources */,
 				55DF28992C74D0E0005762BC /* ContentView.swift in Sources */,
 				55DF28B42C7CCB61005762BC /* Array+Extensions.swift in Sources */,
