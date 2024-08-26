@@ -36,6 +36,9 @@
 		55DF28D92C7CD94D005762BC /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28D82C7CD94D005762BC /* NetworkError.swift */; };
 		55DF28DC2C7CD9F8005762BC /* AuthenticationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28DB2C7CD9F8005762BC /* AuthenticationError.swift */; };
 		55DF28DE2C7CDA5B005762BC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28DD2C7CDA5B005762BC /* Network.swift */; };
+		55DF28E02C7CDADA005762BC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28DF2C7CDADA005762BC /* NetworkService.swift */; };
+		55DF28E32C7CDB29005762BC /* Logger+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28E22C7CDB29005762BC /* Logger+Extensions.swift */; };
+		55DF28E52C7CDB61005762BC /* StringInterpolation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28E42C7CDB61005762BC /* StringInterpolation+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +70,9 @@
 		55DF28D82C7CD94D005762BC /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		55DF28DB2C7CD9F8005762BC /* AuthenticationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationError.swift; sourceTree = "<group>"; };
 		55DF28DD2C7CDA5B005762BC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		55DF28DF2C7CDADA005762BC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		55DF28E22C7CDB29005762BC /* Logger+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Extensions.swift"; sourceTree = "<group>"; };
+		55DF28E42C7CDB61005762BC /* StringInterpolation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringInterpolation+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,7 @@
 		55DF28AD2C74D8D9005762BC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				55DF28E12C7CDB20005762BC /* OS */,
 				55DF28C02C7CD35B005762BC /* SwiftUI */,
 				55DF28BB2C7CD02B005762BC /* Foundation */,
 				55DF28AE2C74D8E2005762BC /* Swift */,
@@ -150,6 +157,7 @@
 				55DF28B52C7CCC00005762BC /* Dictionary+Extensions.swift */,
 				55DF28B72C7CCC84005762BC /* Sequence+Extensions.swift */,
 				55DF28B92C7CCF37005762BC /* Result+Extensions.swift */,
+				55DF28E42C7CDB61005762BC /* StringInterpolation+Extensions.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -184,6 +192,7 @@
 				55DF28D32C7CD6D7005762BC /* Route.swift */,
 				55DF28D82C7CD94D005762BC /* NetworkError.swift */,
 				55DF28DD2C7CDA5B005762BC /* Network.swift */,
+				55DF28DF2C7CDADA005762BC /* NetworkService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -202,6 +211,14 @@
 				55DF28DB2C7CD9F8005762BC /* AuthenticationError.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		55DF28E12C7CDB20005762BC /* OS */ = {
+			isa = PBXGroup;
+			children = (
+				55DF28E22C7CDB29005762BC /* Logger+Extensions.swift */,
+			);
+			path = OS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +301,7 @@
 				55DF28C22C7CD365005762BC /* EdgeInsets+Extensions.swift in Sources */,
 				55DF28C42C7CD425005762BC /* EnvironmentValues+Extensions.swift in Sources */,
 				55DF28D92C7CD94D005762BC /* NetworkError.swift in Sources */,
+				55DF28E32C7CDB29005762BC /* Logger+Extensions.swift in Sources */,
 				55DF28BA2C7CCF37005762BC /* Result+Extensions.swift in Sources */,
 				55DF28992C74D0E0005762BC /* ContentView.swift in Sources */,
 				55DF28B42C7CCB61005762BC /* Array+Extensions.swift in Sources */,
@@ -297,6 +315,7 @@
 				55DF28AA2C74D80A005762BC /* ArrayBuilder.swift in Sources */,
 				55DF28D42C7CD6D7005762BC /* Route.swift in Sources */,
 				55DF28AC2C74D81E005762BC /* DictionaryBuilder.swift in Sources */,
+				55DF28E02C7CDADA005762BC /* NetworkService.swift in Sources */,
 				55DF28B22C7CB142005762BC /* Optional+Extensions.swift in Sources */,
 				55DF28B82C7CCC84005762BC /* Sequence+Extensions.swift in Sources */,
 				55DF28B62C7CCC00005762BC /* Dictionary+Extensions.swift in Sources */,
@@ -304,6 +323,7 @@
 				55DF28CA2C7CD532005762BC /* Binding+Extensions.swift in Sources */,
 				55DF28A62C74D700005762BC /* Undefined.swift in Sources */,
 				55DF28D72C7CD8C5005762BC /* Endpoint.swift in Sources */,
+				55DF28E52C7CDB61005762BC /* StringInterpolation+Extensions.swift in Sources */,
 				55DF28DC2C7CD9F8005762BC /* AuthenticationError.swift in Sources */,
 				55DF28BF2C7CD22A005762BC /* Comparable+Extensions.swift in Sources */,
 			);
