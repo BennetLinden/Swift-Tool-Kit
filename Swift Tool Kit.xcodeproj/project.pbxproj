@@ -39,6 +39,11 @@
 		55DF28E02C7CDADA005762BC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28DF2C7CDADA005762BC /* NetworkService.swift */; };
 		55DF28E32C7CDB29005762BC /* Logger+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28E22C7CDB29005762BC /* Logger+Extensions.swift */; };
 		55DF28E52C7CDB61005762BC /* StringInterpolation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28E42C7CDB61005762BC /* StringInterpolation+Extensions.swift */; };
+		55DF28E72C7CEE97005762BC /* OAuthCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28E62C7CEE97005762BC /* OAuthCredential.swift */; };
+		55DF28E92C7CEF90005762BC /* OAuthAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28E82C7CEF90005762BC /* OAuthAuthenticator.swift */; };
+		55DF28ED2C7CF006005762BC /* KeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28EC2C7CF006005762BC /* KeychainStorage.swift */; };
+		55DF28EF2C7CF037005762BC /* KeychainStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28EE2C7CF037005762BC /* KeychainStorageService.swift */; };
+		55DF28F22C7CF07E005762BC /* KeychainStorageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28F12C7CF07E005762BC /* KeychainStorageError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +78,11 @@
 		55DF28DF2C7CDADA005762BC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		55DF28E22C7CDB29005762BC /* Logger+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Extensions.swift"; sourceTree = "<group>"; };
 		55DF28E42C7CDB61005762BC /* StringInterpolation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringInterpolation+Extensions.swift"; sourceTree = "<group>"; };
+		55DF28E62C7CEE97005762BC /* OAuthCredential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthCredential.swift; sourceTree = "<group>"; };
+		55DF28E82C7CEF90005762BC /* OAuthAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthAuthenticator.swift; sourceTree = "<group>"; };
+		55DF28EC2C7CF006005762BC /* KeychainStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStorage.swift; sourceTree = "<group>"; };
+		55DF28EE2C7CF037005762BC /* KeychainStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStorageService.swift; sourceTree = "<group>"; };
+		55DF28F12C7CF07E005762BC /* KeychainStorageError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStorageError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +120,7 @@
 				55DF28962C74D0E0005762BC /* SwiftToolKitApp.swift */,
 				55DF28AD2C74D8D9005762BC /* Extensions */,
 				55DF28A42C74D6F2005762BC /* Utility */,
+				55DF28EA2C7CEFE8005762BC /* Data */,
 				55DF28CD2C7CD675005762BC /* Network */,
 				55DF28982C74D0E0005762BC /* ContentView.swift */,
 				55DF289A2C74D0E1005762BC /* Assets.xcassets */,
@@ -209,6 +220,8 @@
 			isa = PBXGroup;
 			children = (
 				55DF28DB2C7CD9F8005762BC /* AuthenticationError.swift */,
+				55DF28E62C7CEE97005762BC /* OAuthCredential.swift */,
+				55DF28E82C7CEF90005762BC /* OAuthAuthenticator.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -219,6 +232,32 @@
 				55DF28E22C7CDB29005762BC /* Logger+Extensions.swift */,
 			);
 			path = OS;
+			sourceTree = "<group>";
+		};
+		55DF28EA2C7CEFE8005762BC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				55DF28EB2C7CEFFB005762BC /* Storage */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		55DF28EB2C7CEFFB005762BC /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				55DF28F02C7CF05F005762BC /* Secure */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		55DF28F02C7CF05F005762BC /* Secure */ = {
+			isa = PBXGroup;
+			children = (
+				55DF28EC2C7CF006005762BC /* KeychainStorage.swift */,
+				55DF28EE2C7CF037005762BC /* KeychainStorageService.swift */,
+				55DF28F12C7CF07E005762BC /* KeychainStorageError.swift */,
+			);
+			path = Secure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,16 +349,21 @@
 				55DF28CC2C7CD566005762BC /* Toggle+Extensions.swift in Sources */,
 				55DF28C62C7CD476005762BC /* View+Extensions.swift in Sources */,
 				55DF28DE2C7CDA5B005762BC /* Network.swift in Sources */,
+				55DF28ED2C7CF006005762BC /* KeychainStorage.swift in Sources */,
 				55DF28B02C74D8F9005762BC /* Collection+Extensions.swift in Sources */,
 				55DF28C82C7CD50B005762BC /* Shape+Extensions.swift in Sources */,
+				55DF28E72C7CEE97005762BC /* OAuthCredential.swift in Sources */,
 				55DF28AA2C74D80A005762BC /* ArrayBuilder.swift in Sources */,
+				55DF28EF2C7CF037005762BC /* KeychainStorageService.swift in Sources */,
 				55DF28D42C7CD6D7005762BC /* Route.swift in Sources */,
 				55DF28AC2C74D81E005762BC /* DictionaryBuilder.swift in Sources */,
 				55DF28E02C7CDADA005762BC /* NetworkService.swift in Sources */,
 				55DF28B22C7CB142005762BC /* Optional+Extensions.swift in Sources */,
 				55DF28B82C7CCC84005762BC /* Sequence+Extensions.swift in Sources */,
 				55DF28B62C7CCC00005762BC /* Dictionary+Extensions.swift in Sources */,
+				55DF28F22C7CF07E005762BC /* KeychainStorageError.swift in Sources */,
 				55DF28A82C74D79D005762BC /* Configurable.swift in Sources */,
+				55DF28E92C7CEF90005762BC /* OAuthAuthenticator.swift in Sources */,
 				55DF28CA2C7CD532005762BC /* Binding+Extensions.swift in Sources */,
 				55DF28A62C74D700005762BC /* Undefined.swift in Sources */,
 				55DF28D72C7CD8C5005762BC /* Endpoint.swift in Sources */,
