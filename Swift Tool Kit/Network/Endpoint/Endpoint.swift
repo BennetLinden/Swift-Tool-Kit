@@ -33,7 +33,7 @@ struct Endpoint: URLConvertible {
     }
 }
 
-// Examples
+// Example Endpoints
 
 extension URL {
     static var example: URL {
@@ -76,11 +76,11 @@ extension Endpoint {
         var path: String {
             switch self {
             case .register:
-                "/register"
+                "/iam/register"
             case .login:
-                "/login"
+                "/iam/login"
             case .refreshToken:
-                "/refresh"
+                "/iam/refresh"
             }
         }
     }
@@ -93,7 +93,7 @@ extension Endpoint {
         var path: String {
             switch self {
             case .me:
-                "/me"
+                "/iam/me"
             }
         }
     }
