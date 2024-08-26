@@ -27,6 +27,7 @@
 		55DF28C42C7CD425005762BC /* EnvironmentValues+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28C32C7CD425005762BC /* EnvironmentValues+Extensions.swift */; };
 		55DF28C62C7CD476005762BC /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28C52C7CD476005762BC /* View+Extensions.swift */; };
 		55DF28C82C7CD50B005762BC /* Shape+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28C72C7CD50B005762BC /* Shape+Extensions.swift */; };
+		55DF28CA2C7CD532005762BC /* Binding+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28C92C7CD532005762BC /* Binding+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		55DF28C32C7CD425005762BC /* EnvironmentValues+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+Extensions.swift"; sourceTree = "<group>"; };
 		55DF28C52C7CD476005762BC /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		55DF28C72C7CD50B005762BC /* Shape+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shape+Extensions.swift"; sourceTree = "<group>"; };
+		55DF28C92C7CD532005762BC /* Binding+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				55DF28C32C7CD425005762BC /* EnvironmentValues+Extensions.swift */,
 				55DF28C52C7CD476005762BC /* View+Extensions.swift */,
 				55DF28C72C7CD50B005762BC /* Shape+Extensions.swift */,
+				55DF28C92C7CD532005762BC /* Binding+Extensions.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				55DF28B82C7CCC84005762BC /* Sequence+Extensions.swift in Sources */,
 				55DF28B62C7CCC00005762BC /* Dictionary+Extensions.swift in Sources */,
 				55DF28A82C74D79D005762BC /* Configurable.swift in Sources */,
+				55DF28CA2C7CD532005762BC /* Binding+Extensions.swift in Sources */,
 				55DF28A62C74D700005762BC /* Undefined.swift in Sources */,
 				55DF28BF2C7CD22A005762BC /* Comparable+Extensions.swift in Sources */,
 			);
