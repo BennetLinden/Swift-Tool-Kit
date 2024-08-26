@@ -22,6 +22,7 @@
 		55DF28B82C7CCC84005762BC /* Sequence+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28B72C7CCC84005762BC /* Sequence+Extensions.swift */; };
 		55DF28BA2C7CCF37005762BC /* Result+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28B92C7CCF37005762BC /* Result+Extensions.swift */; };
 		55DF28BD2C7CD033005762BC /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28BC2C7CD033005762BC /* Date+Extensions.swift */; };
+		55DF28BF2C7CD22A005762BC /* Comparable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28BE2C7CD22A005762BC /* Comparable+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		55DF28B72C7CCC84005762BC /* Sequence+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Extensions.swift"; sourceTree = "<group>"; };
 		55DF28B92C7CCF37005762BC /* Result+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Extensions.swift"; sourceTree = "<group>"; };
 		55DF28BC2C7CD033005762BC /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		55DF28BE2C7CD22A005762BC /* Comparable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comparable+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				55DF28BC2C7CD033005762BC /* Date+Extensions.swift */,
+				55DF28BE2C7CD22A005762BC /* Comparable+Extensions.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				55DF28B62C7CCC00005762BC /* Dictionary+Extensions.swift in Sources */,
 				55DF28A82C74D79D005762BC /* Configurable.swift in Sources */,
 				55DF28A62C74D700005762BC /* Undefined.swift in Sources */,
+				55DF28BF2C7CD22A005762BC /* Comparable+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
