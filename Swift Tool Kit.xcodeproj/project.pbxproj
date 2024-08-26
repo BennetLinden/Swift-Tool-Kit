@@ -19,6 +19,7 @@
 		55DF28B22C7CB142005762BC /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28B12C7CB142005762BC /* Optional+Extensions.swift */; };
 		55DF28B42C7CCB61005762BC /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28B32C7CCB61005762BC /* Array+Extensions.swift */; };
 		55DF28B62C7CCC00005762BC /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28B52C7CCC00005762BC /* Dictionary+Extensions.swift */; };
+		55DF28B82C7CCC84005762BC /* Sequence+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28B72C7CCC84005762BC /* Sequence+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		55DF28B12C7CB142005762BC /* Optional+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
 		55DF28B32C7CCB61005762BC /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		55DF28B52C7CCC00005762BC /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		55DF28B72C7CCC84005762BC /* Sequence+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				55DF28B12C7CB142005762BC /* Optional+Extensions.swift */,
 				55DF28B32C7CCB61005762BC /* Array+Extensions.swift */,
 				55DF28B52C7CCC00005762BC /* Dictionary+Extensions.swift */,
+				55DF28B72C7CCC84005762BC /* Sequence+Extensions.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				55DF28AA2C74D80A005762BC /* ArrayBuilder.swift in Sources */,
 				55DF28AC2C74D81E005762BC /* DictionaryBuilder.swift in Sources */,
 				55DF28B22C7CB142005762BC /* Optional+Extensions.swift in Sources */,
+				55DF28B82C7CCC84005762BC /* Sequence+Extensions.swift in Sources */,
 				55DF28B62C7CCC00005762BC /* Dictionary+Extensions.swift in Sources */,
 				55DF28A82C74D79D005762BC /* Configurable.swift in Sources */,
 				55DF28A62C74D700005762BC /* Undefined.swift in Sources */,
