@@ -34,6 +34,7 @@
 		55DF28D42C7CD6D7005762BC /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28D32C7CD6D7005762BC /* Route.swift */; };
 		55DF28D72C7CD8C5005762BC /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28D62C7CD8C5005762BC /* Endpoint.swift */; };
 		55DF28D92C7CD94D005762BC /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28D82C7CD94D005762BC /* NetworkError.swift */; };
+		55DF28DC2C7CD9F8005762BC /* AuthenticationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28DB2C7CD9F8005762BC /* AuthenticationError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		55DF28D32C7CD6D7005762BC /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		55DF28D62C7CD8C5005762BC /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		55DF28D82C7CD94D005762BC /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		55DF28DB2C7CD9F8005762BC /* AuthenticationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		55DF28CD2C7CD675005762BC /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				55DF28DA2C7CD9ED005762BC /* Authentication */,
 				55DF28D52C7CD8BB005762BC /* Endpoint */,
 				55DF28D32C7CD6D7005762BC /* Route.swift */,
 				55DF28D82C7CD94D005762BC /* NetworkError.swift */,
@@ -188,6 +191,14 @@
 				55DF28D62C7CD8C5005762BC /* Endpoint.swift */,
 			);
 			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		55DF28DA2C7CD9ED005762BC /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				55DF28DB2C7CD9F8005762BC /* AuthenticationError.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +300,7 @@
 				55DF28CA2C7CD532005762BC /* Binding+Extensions.swift in Sources */,
 				55DF28A62C74D700005762BC /* Undefined.swift in Sources */,
 				55DF28D72C7CD8C5005762BC /* Endpoint.swift in Sources */,
+				55DF28DC2C7CD9F8005762BC /* AuthenticationError.swift in Sources */,
 				55DF28BF2C7CD22A005762BC /* Comparable+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
