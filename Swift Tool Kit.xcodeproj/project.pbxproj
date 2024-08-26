@@ -16,6 +16,7 @@
 		55DF28AA2C74D80A005762BC /* ArrayBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28A92C74D80A005762BC /* ArrayBuilder.swift */; };
 		55DF28AC2C74D81E005762BC /* DictionaryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28AB2C74D81E005762BC /* DictionaryBuilder.swift */; };
 		55DF28B02C74D8F9005762BC /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28AF2C74D8F9005762BC /* Collection+Extensions.swift */; };
+		55DF28B22C7CB142005762BC /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF28B12C7CB142005762BC /* Optional+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		55DF28A92C74D80A005762BC /* ArrayBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayBuilder.swift; sourceTree = "<group>"; };
 		55DF28AB2C74D81E005762BC /* DictionaryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryBuilder.swift; sourceTree = "<group>"; };
 		55DF28AF2C74D8F9005762BC /* Collection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
+		55DF28B12C7CB142005762BC /* Optional+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				55DF28AF2C74D8F9005762BC /* Collection+Extensions.swift */,
+				55DF28B12C7CB142005762BC /* Optional+Extensions.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				55DF28B02C74D8F9005762BC /* Collection+Extensions.swift in Sources */,
 				55DF28AA2C74D80A005762BC /* ArrayBuilder.swift in Sources */,
 				55DF28AC2C74D81E005762BC /* DictionaryBuilder.swift in Sources */,
+				55DF28B22C7CB142005762BC /* Optional+Extensions.swift in Sources */,
 				55DF28A82C74D79D005762BC /* Configurable.swift in Sources */,
 				55DF28A62C74D700005762BC /* Undefined.swift in Sources */,
 			);
