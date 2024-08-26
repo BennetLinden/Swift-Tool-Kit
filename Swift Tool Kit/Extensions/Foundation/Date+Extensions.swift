@@ -30,7 +30,7 @@ extension Date {
         )
     }
 
-    func startOfDay(in calendar: Calendar) -> Date {
+    func startOfDay(in calendar: Calendar) -> Date? {
         let components = DateComponents(hour: 0, minute: 0)
         let isStartOfDay = calendar.date(self, matchesComponents: components)
 
@@ -42,14 +42,14 @@ extension Date {
             matching: components,
             direction: .backward,
             in: calendar
-        )!
+        )
     }
 
-    var startOfDay: Date {
+    var startOfDay: Date? {
         startOfDay(in: .current)
     }
 
-    func endOfDay(in calendar: Calendar = .current) -> Date {
+    func endOfDay(in calendar: Calendar = .current) -> Date? {
         let components = DateComponents(hour: 23, minute: 59)
         let isEndOfDay = calendar.date(self, matchesComponents: components)
 
@@ -61,14 +61,14 @@ extension Date {
             matching: components,
             direction: .forward,
             in: calendar
-        )!
+        )
     }
 
-    var endOfDay: Date {
+    var endOfDay: Date? {
         endOfDay(in: .current)
     }
 
-    func startOfMonth(in calendar: Calendar) -> Date {
+    func startOfMonth(in calendar: Calendar) -> Date? {
         let components = DateComponents(day: 1, hour: 0, minute: 0)
         let isStartOfMonth = calendar.date(self, matchesComponents: components)
 
@@ -80,10 +80,10 @@ extension Date {
             matching: components,
             direction: .backward,
             in: calendar
-        )!
+        )
     }
 
-    var startOfMonth: Date {
+    var startOfMonth: Date? {
         startOfMonth(in: .current)
     }
 }
