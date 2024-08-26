@@ -10,7 +10,7 @@ import SwiftUI
 
 extension Array {
     init(@ArrayBuilder<Element> builder: () -> [Element]) {
-        self.init(builder())
+        self = builder()
     }
 
     func chunked(into size: Int) -> [[Element]] {
